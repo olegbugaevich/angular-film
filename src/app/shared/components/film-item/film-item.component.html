@@ -1,0 +1,16 @@
+<div class="film">
+	<div class="film__poster">
+			<img [src]="film.Poster"
+				  alt="" class="film__img">
+		<button
+      class="film__btn"
+      idfilm="tt0372784"
+      (click)="getFilmById(film.imdbID)"
+    >Details </button>
+	</div>
+	<div class="film__info">
+		<p class="film__type">{{film?.Type}}</p>
+		<h3 class="film__title">{{film?.Title}}</h3>
+		<p class="film__year">{{film?.Year}}</p>
+	</div>
+</div>

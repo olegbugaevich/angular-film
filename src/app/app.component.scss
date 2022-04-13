@@ -1,0 +1,15 @@
+.app {
+	max-width: 1360px;
+	padding-top: 4rem;
+}
+
+.films {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 0 auto;
+}
+
+.error {
+	text-align: center;
+}

@@ -1,0 +1,26 @@
+.dialog {
+	display: flex;
+	justify-content: space-between;
+}
+.dialog__film-poster {
+	height: 100%;
+}
+.dialog__items-info {
+	display: flex;
+	flex-wrap: wrap;
+	height: 100%;
+	justify-content: space-between;
+	width: 60%;
+}
+.dialog__item-title {
+	margin: 0px 0px 10px;
+	width: 30%;
+}
+.dialog__item-info {
+	margin: 0px 0px 10px;
+	width: 70%;
+}
+
+.dialog__container-btn {
+	text-align: right;
+}

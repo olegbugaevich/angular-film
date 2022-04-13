@@ -1,0 +1,47 @@
+.film {
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.38);
+  display: flex;
+	height: 200px;
+	justify-content: space-between;
+	margin: 10px 10px;
+	padding: 10px;
+  width: 250px;
+}
+.film__poster {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin-right: 5px;
+  width: 40%;
+}
+.film__img {
+  height: 80%;
+  width: 100%;
+}
+.film__btn{
+  margin-top: auto;
+  width: 100%;
+}
+.film__info {
+  display: flex;
+  flex-direction: column;
+	width: 60%;
+	height: 100%;
+}
+.film__type {
+  margin: 0;
+  text-align: right;
+}
+.film__title {
+  overflow-wrap: break-word;
+  text-align: right;
+}
+.film__year {
+  font-size: 18px;
+  font-weight: 500;
+  margin: auto 0 0;
+	text-align: center;
+  width: 100%;
+}

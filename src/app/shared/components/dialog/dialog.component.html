@@ -1,0 +1,28 @@
+<p *ngIf="isLoading">Идет Загрузка</p>
+<div class="dialog"
+	  *ngIf="!isLoading">
+	<img [src]="detailsFilm.Poster"
+		  class="dialog__film-poster" />
+	<div class="dialog__items-info">
+		<h4 class="dialog__item-title">Title:</h4>
+		<h4 class="dialog__item-info">{{detailsFilm.Title}}</h4>
+		<h4 class="dialog__item-title">Released: </h4>
+		<h4 class="dialog__item-info">{{detailsFilm.Year}}</h4>
+		<h4 class="dialog__item-title">Genre:</h4>
+		<h4 class="dialog__item-info">{{detailsFilm.Genre}}</h4>
+		<h4 class="dialog__item-title">Country: </h4>
+		<h4 class="dialog__item-info">{{detailsFilm.Country}}</h4>
+		<h4 class="dialog__item-title">Director: </h4>
+		<h4 class="dialog__item-info">{{detailsFilm.Director}}</h4>
+		<h4 class="dialog__item-title">Writer: </h4>
+		<h4 class="dialog__item-info">{{detailsFilm.Writer}}</h4>
+		<h4 class="dialog__item-title">Actors: </h4>
+		<h4 class="dialog__item-info">{{detailsFilm.Actors}}</h4>
+		<h4 class="dialog__item-title">Awards: </h4>
+		<h4 class="dialog__item-info">{{detailsFilm.Awards}}</h4>
+	</div>
+</div>
+<div class="dialog__container-btn">
+	<button (click)="onNoClick()"
+			  class="dialog__btn">Close</button>
+</div>
